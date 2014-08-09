@@ -17,7 +17,7 @@ Vagrant::Config.run do |config|
   config.vm.define :icinga do |icinga_config|
        icinga_config.ssh.max_tries = 100
        icinga_config.vm.box = "Centos65"
-       icinga_config.vm.network :hostonly, "192.168.99.103"
+       icinga_config.vm.network :hostonly, "192.168.99.104"
        icinga_config.vm.host_name = "icinga"
        icinga_config.vm.provision :puppet do |icinga_puppet|
         icinga_puppet.manifests_path = "manifests"
