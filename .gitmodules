@@ -1,3 +1,24 @@
 [submodule "modules/flapjack"]
 	path = modules/flapjack
 	url = git@github.com:KrisBuytaert/puppet-flapjack.git
+[submodule "modules/icinga"]
+	path = modules/icinga
+	url = https://github.com/arioch/puppet-icinga.git
+[submodule "modules/firewall"]
+	path = modules/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
+[submodule "modules/epel"]
+	path = modules/epel
+	url = https://github.com/stahnma/puppet-module-epel.git
+[submodule "modules/sudo"]
+	path = modules/sudo
+	url = git://github.com/saz/puppet-sudo.git
+[submodule "modules/apache"]
+	path = modules/apache
+	url = https://github.com/vStone/puppet-apache.git
+[submodule "modules/concat"]
+	path = modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
